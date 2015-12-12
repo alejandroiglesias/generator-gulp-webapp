@@ -114,7 +114,8 @@ Wiredep supports Jade:
        exclude: ['bootstrap-sass'],
        ignorePath: /^(\.\.\/)*\.\./
      }))
-     .pipe(gulp.dest('app/layouts'));
+-    .pipe(gulp.dest('app'));
++    .pipe(gulp.dest('app/layouts'));
  });
 ```
 
